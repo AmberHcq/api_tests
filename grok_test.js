@@ -2,7 +2,7 @@ const OpenAI = require("openai");
 
 (async () => {
     const client = new OpenAI({
-        apiKey: "xai-EddIf41wvhVI05waR9yjmFqllqjowmNVKI8xkZlr0ECAL6wZ6Wa5pV99FC7RvtxSmb3jutpueOpSnj13",
+        apiKey: process.env.GROK_API_KEY,
         baseURL: "https://api.x.ai/v1",
     });
 
